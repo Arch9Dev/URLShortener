@@ -1,0 +1,6 @@
+CREATE TABLE links (
+  id TEXT PRIMARY KEY,
+  url TEXT NOT NULL,
+  created_at TEXT NOT NULL,
+  clicks INTEGER DEFAULT 0
+);
